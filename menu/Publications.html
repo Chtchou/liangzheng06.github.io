@@ -3,40 +3,9 @@ layout: page
 title: Publication
 ---
 
-h1,h2,h3,h4 {
-	text-transform: uppercase;
-	font-weight: normal;
-}
-
-h2 {
-	font-size: 1.5em;
-}
-
-h2,h3,h4 {
-	font-family: "Open Sans", sans-serif;
-	color: #FDFEFE;
-	margin-bottom: 1em;
-}
-
-<!--<ul class="posts">
-  {% for post in site.posts %}
-
-    {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        <h3>{{ post.date | date: '%Y' }}</h3>
-      {% endif %}
-    {% endunless %}
-
-    <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
-    </li>
-<!--  {% endfor %}
-</ul>-->
+<div style="	padding: 0;
+	width: 800px;
+	margin: 0 0 0 40px;  font-size:10pt; color:black">
 
 <h3><font size=12px face="Arial" color="#1772d0"><strong>Arxiv Papers</strong></font></h3>
                     <td>
@@ -236,3 +205,4 @@ h2,h3,h4 {
                         <b>Coupled Binary Embedding for Large-scale Image Retrieval</b><!-- [<a href="publication/cvpr14-camready.pdf">PDF</a>]-->
                         <a href="TIP14_coupled.pdf"><font color=""><strong>[PDF]</strong></font></a>
                         <br /><strong>Liang Zheng</strong>, Shengjin Wang, and Qi Tian
+</div>
