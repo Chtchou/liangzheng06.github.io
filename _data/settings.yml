@@ -7,7 +7,7 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'Home', path: 'menu', url: 'about.html'}
+- {name: 'Home', path: 'menu', url: 'Home.html'}
 - {name: 'Lab', path: 'menu', url: 'Lab.html'}
 - {name: 'Publications', path: 'menu', url: 'Publications.html'}
 - {name: 'Datasets', path: 'menu', url: 'Datasets.html'}
