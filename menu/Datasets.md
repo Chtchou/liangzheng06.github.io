@@ -15,7 +15,7 @@ a:focus, a:hover {
 color: #f09228;
 text-decoration:none;
 }
-td,th {
+body,td,th {
 font-family: 'Lato', Verdana, Helvetica, sans-serif;
 font-size: 14px
 }
